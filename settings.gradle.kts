@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "tanchiki"
+rootProject.name = "Tanki Online"
 include(":app")
