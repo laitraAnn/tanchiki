@@ -59,9 +59,10 @@ class ScoreActivity : AppCompatActivity() {
         scoreSoundPlayer.pauseScoreSound()
     }
 
-    override fun onBackPressed() {
+    override fun onBackPressed()
+    {
         super.onBackPressed()
-        setResult(Activity.RESULT_OK)
+        setResult(Activity.RESULT_Ok)
         finish()
     }
 }
